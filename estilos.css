@@ -1,0 +1,25 @@
+
+body{
+    background-color: beige;
+    text-align: center;
+}
+header{
+    background-color: aquamarine;
+    text-align: left;
+    width: 800px;
+    border-radius: 20px;
+    width: 540px;
+    padding: 3px;
+}
+
+section{
+    background-color: aqua;
+}
+
+section div#resultado{
+    background-color: blue;
+    color: bisque;
+    font-size: 18pt;
+    width: 400px;
+    border-radius: 10px;
+}
