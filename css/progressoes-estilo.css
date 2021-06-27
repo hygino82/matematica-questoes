@@ -1,0 +1,18 @@
+body{
+    background: lightpink;
+    text-align: center;
+}
+
+header{
+    background: green;
+    color:antiquewhite;
+}
+
+section{
+    background: lightskyblue;
+    width: 400px;
+}
+div#resultado{
+    background: limegreen;
+    border-radius: 10px;
+}
