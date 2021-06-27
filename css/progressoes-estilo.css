@@ -16,3 +16,8 @@ div#resultado{
     background: limegreen;
     border-radius: 10px;
 }
+
+fieldset#infoTipo{
+    text-align: left;
+    background: lightcyan;
+}

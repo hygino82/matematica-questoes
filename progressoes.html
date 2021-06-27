@@ -14,17 +14,29 @@
         <h1>Sequências numéricas</h1>
     </header>
     <section>
-        <h2>Informe o valor de um elemento e a razão</h2>
-        <p>Posição do elemento</p>
-        <input type="number" name="posicao" id="posicao">
-        <p>Elemento</p>
-        <input type="number" name="elemento" id="elemento">
-        <p>Razão</p>
-        <input type="number" name="razao" id="razao">
-        <p>Quantidade de elementos a gerar</p>
-        <input type="number" name="quantidade" id="quantidade">
-        </br>
-        <input type="button" value="gerar" onclick="gerar()">
+
+
+        <fieldset id="infoTipo">
+            <legend>Quais dados são conhecidos</legend>
+            <input type="radio" name="tTipo" id="elementoRazao" checked onclick="menu01()"/> <label for="elementoRazao" onclick="menu01()">Um elemento e a
+                razão</label>
+            </br>
+            <input type="radio" name="tTipo" id="doisElementos" onclick="menu02()"/> <label for="doisElementos" onclick="menu02()">Dois elementos</label>
+        </fieldset>
+
+        <div id=menu>
+            <h2>Informe o valor de um elemento e a razão</h2>
+            <p>Posição do elemento</p>
+            <input type="number" name="posicao" id="posicao">
+            <p>Elemento</p>
+            <input type="number" name="elemento" id="elemento">
+            <p>Razão</p>
+            <input type="number" name="razao" id="razao">
+            <p>Quantidade de elementos a gerar</p>
+            <input type="number" name="quantidade" id="quantidade">
+            </br>
+            <input type="button" value="gerar" onclick="gerar()">    
+        </div>
 
         <div id="resultado">
         </div>
